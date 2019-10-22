@@ -37,7 +37,7 @@ width: 15px;
 .navigation a
 {
 	text-decoration: none;
-	padding-left: 30px;
+	padding-left: 25px;
 	text-align: center;
 }
 .navigation {
@@ -64,7 +64,7 @@ width: 15px;
     /*padding: 14px;
     margin-left: px;*/
     padding: 15px;
-    margin-left: 916px;
+    margin-left: 870px;
 }
 .text-al{
 	text-align: center;
@@ -164,6 +164,11 @@ margin-left: 1px;
             height:240px; 
             background-color:white; 
         }
+        /*.box-right{
+            padding: 5px;
+            text-align: left;
+
+        }*/
         .image-f0r-box4 img{
             /*text-align: right;*/
     line-height: 10px;
@@ -174,7 +179,8 @@ margin-left: 1px;
 
         }
         .box-right{
-            text-align: center;
+            margin: 20px;
+            text-align: left;
 
         }
         .box5
@@ -213,9 +219,22 @@ margin-left: 1px;
     margin-right: -49px;
 
        }
-       .middle
+       /*.middle
        {
         background-image: url(../images/invent.jpg);
        }
+*/
 
-
+li 
+{
+    display: inline-block;
+}
+.increse img{
+    width: 20px;
+    height: 20px;
+}
+.font1{
+      font-size: 20px;
+    font-family: arial;
+font-weight: bold;
+}
